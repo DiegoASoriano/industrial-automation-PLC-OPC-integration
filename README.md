@@ -4,6 +4,8 @@
 ## Project Overview
 This project involved the end-to-end design and virtual commissioning of three industrial pneumatic systems. The core challenge was to integrate proprietary Siemens PLC logic with third-party simulation software (Festo FluidSIM) to create a high-fidelity "Digital Twin" for testing before physical deployment.
 
+[Demonstration Video of one of the 3 systems](https://youtu.be/gPmN8q1ij7s)
+
 ## Tech Stack
 * **PLC Programming:** Siemens TIA Portal V15 (Ladder & GRAFCET/SFC).
 * **Industrial Simulation:** Festo FluidSIM (Electropneumatics).
@@ -41,14 +43,8 @@ To achieve this, I implemented the following technical workflow:
 ### 1. Control Logic Design (Example: Automated Sorting System)
 | Functional Design (GRAFCET) | PLC Implementation (Ladder) |
 | :--- | :--- |
-| ![GRAFCET](media/fig14_grafcet_sorting.png) | ![Ladder](media/fig16_ladder_sorting.png) |
-[cite_start]*Sequential logic designed for a temperature-based sorting station, including decision branches and safety interlocks.*
-
-### 2. Digital Twin Integration
-| FluidSIM Simulation Layout | OPC Server Configuration (KEPServer) |
-| :--- | :--- |
-| ![FluidSIM](media/fig14_layout_sorting.png) | ![OPC](media/fig19_tags_opc.png) |
-*The system architecture bridges TIA Portal and FluidSIM via KEPServerEX to validate sensor-driven movements.*
+| ![GRAFCET](media/sorting/Grafcet.jpg) | ![Ladder](media/sorting/Ladder.jpg) |
+*Sequential logic designed for a temperature-based sorting station, including decision branches and safety interlocks.*
 
 This methodology was successfully replicated across three different industrial modules: 
 * **Material Feeding System:** Synchronized feeding for machining centers.
