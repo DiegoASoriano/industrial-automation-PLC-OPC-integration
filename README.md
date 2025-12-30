@@ -17,7 +17,10 @@ This project involved the end-to-end design and virtual commissioning of three i
 ## Project Case Study
 
 ### **Situation**
-In industrial automation, testing PLC logic on physical hardware without prior validation can lead to equipment damage and high downtime costs. I was tasked with developing a robust simulation environment for three complex pneumatic modules (Feeding, Welding, and Material Handling) during my Social Service at **BUAP**.
+In industrial automation, testing PLC logic on physical hardware without prior validation can lead to equipment damage and high downtime costs. I was tasked with developing a robust simulation environment for three complex pneumatic modules (Feeding, Sorting, and Extraction) during my Social Service at **BUAP**.
+
+### Hardware-in-the-Loop Layout
+![Compartment](media/sorting/sorting_layout.jpg)
 
 ### **Task**
 My objective was to design the full control logic and establish a seamless, real-time communication bridge between the PLC code and a virtual pneumatic environment, ensuring that the simulated sensors and actuators responded exactly as they would in a real-world factory floor.
@@ -31,7 +34,7 @@ To achieve this, I implemented the following technical workflow:
 
 ### **Results**
 * **100% Validation:** Successfully validated 3 distinct industrial modules in a risk-free virtual environment.
-* **System Efficiency:** Optimized the "Welding Station" logic, reducing cycle time by ensuring parallel pneumatic movements where safe.
+* **System Efficiency:** Optimized the "Sorting Station" logic, reducing cycle time by ensuring parallel pneumatic movements where safe.
 * **Complex Interoperability:** Overcame the limitation of proprietary software silos by establishing a stable OPC communication link, a critical skill in Industry 4.0 environments.
 * **Documentation:** Created a comprehensive technical video used by the University to train future mechatronics students.
 
@@ -44,6 +47,8 @@ To achieve this, I implemented the following technical workflow:
 | Functional Design (GRAFCET) | PLC Implementation (Ladder) |
 | :--- | :--- |
 | ![GRAFCET](media/sorting/Grafcet.jpg) | ![Ladder](media/sorting/Ladder.jpg) |
+| Fluidsim OPC connection with TIA PORTAL V15 |
+| ![OPC](media/sorting/fluidsim_OPC_connection.jpg) |
 *Sequential logic designed for a temperature-based sorting station, including decision branches and safety interlocks.*
 
 This methodology was successfully replicated across three different industrial modules: 
