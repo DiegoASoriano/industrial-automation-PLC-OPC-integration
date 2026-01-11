@@ -64,5 +64,5 @@ This methodology was successfully replicated across three different industrial m
 
 ---
 **Contact Information**
-* **Diego Armando Soriano Sánchez** - [LinkedIn](https://www.linkedin.com/in/diego-soriano-30381b220/)
+* **Diego Armando Soriano Sánchez** - [LinkedIn](https://www.linkedin.com/in/diego-soriano-eng/)
 * **Email:** diegoarmando.sori@gmail.com
